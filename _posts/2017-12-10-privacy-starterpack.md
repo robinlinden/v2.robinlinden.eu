@@ -8,5 +8,5 @@ permalink: blog/hiding-from-the-government-starterpack
 
 So, Tox finally went mainstream today by appearing on Reddit's frontpage in a ["hiding from the government" starterpack](https://www.reddit.com/r/starterpacks/comments/7iuies/hiding_from_the_government_starterpack/).
 
-[![Hiding from the government starterpack](/static/img/blog/hiding-from-the-government-starterpack.png)](/static/img/blog/hiding-from-the-government-starterpack.png)
+[![Hiding from the government starterpack]({{ site.baseurl }}/static/img/blog/hiding-from-the-government-starterpack.png)]({{ site.baseurl }}/static/img/blog/hiding-from-the-government-starterpack.png)
 
