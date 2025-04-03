@@ -1,0 +1,16 @@
+title: robinlinden.eu
+email: contact@robinlinden.eu
+description: >
+  During the few moments I'm not programming there's a slight chance I'll
+  update this website with something related to programming or optimisations.
+  My day- and night-time job is consulting in the field of computers and programming.
+  I develop and host websites for a hobby and my favourite animal is the coffee bean.
+baseurl: ""
+url: "https://robinlinden.eu"
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+
+kramdown:
+  auto_ids: false

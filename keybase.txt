@@ -1,0 +1,79 @@
+---
+layout: null
+permalink: /keybase.txt
+---
+
+==================================================================
+https://keybase.io/robinlinden
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://robinlinden.eu
+  * I am robinlinden (https://keybase.io/robinlinden) on keybase.
+  * I have a public key with fingerprint B700 8FF1 2C07 9BF6 E6EA  19D1 601A 604B 7E60 5776
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c108fe45469e294a8927537349499ce54c0598f0cd6186b409c9dc2d7cd000870a",
+            "fingerprint": "b7008ff12c079bf6e6ea19d1601a604b7e605776",
+            "host": "keybase.io",
+            "key_id": "601a604b7e605776",
+            "kid": "0101c108fe45469e294a8927537349499ce54c0598f0cd6186b409c9dc2d7cd000870a",
+            "uid": "d1e0d2353ce3847481253fb7fd999e19",
+            "username": "robinlinden"
+        },
+        "service": {
+            "hostname": "robinlinden.eu",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469276249,
+    "expire_in": 157680000,
+    "prev": "bf083ef977f3112d78dc95325dd1dc37f331b26957025aaf0d74b54d7a97039d",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMM9AnicrVJrTBxVGF1elSKbxaQWrA3F6UIUkMz7sYKUtJDSYsXWio+tu7Nz7yzD
+Y2fZnUU2FWkgpJbQStuAjYAKUrTE0lAQCgQtS5sGEAQMAR9Q+0jrNlQSAwSVWmeI
+/tKf/rq533fOued897uiD9KFBVi3WPe+Y80pDhgdrPfock5bXzuM2GTgRUyHkXy4
+fsACAN2KJV8CiAlBMRQTMJQVIUmRNAdxjuRZDmcogiFIjuQ4AVKkgFIcK6ICoDGW
+tpEoJ3BAwAEjABRFWQblkURElBx26HK6JIeiytoYtSGKGC6gDGcTaUhDHuMARqMY
+T6OkjYE0SjEMrRJzZbfGUM3ZeDdMkmS1pl4s6/b+A/8/+/asywEMogAnKEKABEsy
+JIvhFCHaGBFwHAcxTgO6ocvBF0IV7ZJtkqNAcgDoQEoTEbVRLAlQm60W5t+gJOhR
+BZwuWZEFuUDt5SqK06RRFa9Tw74FbZa/VSwqC6izVAnF0OWWZAdiwlSkoEiaLKaG
+xRkaJ7lEBJY4JRe0SBqCYmhWDYVqz8Bi7QdElCWgyDGMSGCYGpoFAkcROAUABgRC
+rRKYDac5ikFxiudFFDCkjSIBw3MMSnAA0XIVOWTEhKs2ebsq6ZbsDl7xuCBS6hs0
+B+sCwnQbQgK1HdOFbYz4Z/OmBg0PX38jqul2ZXMoI3g9zoKq419MLJyJyynaCn/3
+LVmD5dS2be3TnxSNbHry4O72KS7smG9Hut9VHjXclBBZkWW8eu8pf3XogfnHwjfE
+7S/fkw/KEoiilnL/CcP5tp9/STkZ6g1aiKn1fRyTnFqBLcQtLff0N758L08/yc7k
+ZjH6+29vaXdm9uwKr8j487dfW40RprLMpqrgO/aVN7sqOmPKblSOtxwRJm8/uq1F
+STJUJF6YX5tTQjf3rdWsZixu/6lPGmpJfkYp277U8Nk3r2z0GPe9kHIrO0Q3W/ju
+2cYBUe680T1ntx4Y+CEcpsFzRne0f7R28qPUy+ewyAdHV73m2uGGg77gjmDBcLGu
+um1pDhk7H7j71tnG3EuXZkmmZGQm/tmr8wGFwFN1ZW9Qxgdj/XWn7md3gr4zf1hf
+6vhwwPTp3IvKE9L0bNZYpP9aQ+2ep5V4dkJ/p+xIb3L1548Ive+li/rSUzumRk6v
+XDOnNufGXjdUnRh6NfvxmaSvuw/5h6SvwkfsrTPLxsrl7qAx01Txfuuy11dznb17
+rKd+eoHIbi1dO2p98Lxcs5hnfPjtpjqvJ605/v3L+ombW8eH1zq84+jO45sHls27
+ki+kHfLvdESvnkzPN/bu+/JuVGzsc4aL5q6SuPS8zPpFmFSbEF16c7TL+6MlJZCS
+Qvq/jxBX0r8zm/4CaaW+SQ==
+=rUuG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robinlinden
+
+==================================================================

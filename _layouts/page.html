@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+	<div class="container-small">
+		<header class="post-header">
+			<h1 class="post-title">{{ page.title }}</h1>
+			{% for badge in page.badges %}
+			<a class="badge" href="{{ badge.url }}">
+				<span class="key">{{ badge.key }}</span>
+				<span class="val">{{ badge.val }}</span>
+			</a>
+			{% endfor %}
+		</header>
+	{% if page.banner %}
+	</div>
+		<img class="page-banner" src="{{ page.banner | prepend: site.baseurl }}">
+	<div class="container-small">
+	{% endif %}
+		{{ content }}
+	</div>
+</article>

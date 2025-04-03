@@ -1,0 +1,100 @@
+main {
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+
+	h3 {
+		font-size: 1.9em;
+	}
+
+	header {
+		width: 100%;
+		padding: 2em 0;
+		background: #4d4d4d;
+		color: white;
+		text-align: center;
+
+		h1, p {
+			margin: 0;
+		}
+		h1 {
+			font-weight: bolder;
+			&> :first-child {
+				font-weight: lighter;
+			}
+		}
+		p {
+			font-family: "Bitter";
+			font-weight: lighter;
+			font-size: 2.2em;
+		}
+	}
+
+	content {
+		margin: 0 auto;
+		width: 840px;
+		max-width: 100%;
+
+		display: flex;
+		justify-content: space-around;
+
+		margin-top: 2em;
+
+		p {
+			margin-bottom: 1em;
+		}
+
+		.col-secondary {
+			width: 25%;
+			float: left;
+
+			text-align: right;
+
+			table {
+				float: right;
+				font-size: 1.5em;
+			}
+		}
+
+		.col-primary {
+			width: 70%;
+			float: right;
+		}
+
+		.entry {
+			display: flex;
+
+			>:first-child {
+				font-size: 1em;
+				margin-right: 2em;
+			}
+		}
+	}
+
+	@include media-query($on-palm) {
+		content {
+			flex-direction: column;
+
+			.col-secondary, .col-secondary table, .col-primary {
+				float: none;
+				text-align: left;
+			}
+
+			.col-secondary, .col-primary {
+				width: 97%;
+				margin: 0 3%;
+			}
+
+			.entry {
+				>:first-child {
+					margin-right: 1em;
+				}
+			}
+		}
+	}
+}
+
+footer {
+	clear: both;
+}

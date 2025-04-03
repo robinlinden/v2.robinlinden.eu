@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="http://tempuri.org/microsoft/hta">
+<head>
+  <title>htaHex</title>
+  <hta:application id="htaHex"
+    applicationname="htaHex"
+    maximizebutton="no"
+    minimizebutton="no"
+    border="dialog"
+    innerborder="no"
+    scroll="no"
+    selection="no"
+    sysmenu="yes"
+    version="0.1"
+    windowstate="normal"/>
+  <style type="text/css">
+    * {
+      border: none; margin: 0; padding: 0;
+    }
+    html, body {
+      height:100%;
+    }
+    #preview {
+      width: 100%;
+      height: 100%;
+      border-bottom: 2px ridge;
+    }
+    #hex {
+      width: 100%;
+      height: 1.2em;
+    }
+  </style>
+  <script type="text/javascript">
+  // TODO: Measure performance difference of having regex like
+  // this vs combining them.
+
+    // Whitespace at end or beginning.
+    var trimRegex      = /^\s+|\s+$/g;
+    // (#)abcdef or (#)abc
+    var colourRegex = /^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/;
+
+    function setColor(hex) {
+      if (!hex) return;
+      hex = hex.replace(trimRegex, "");
+
+      var preview = document.getElementById("preview");
+      var m = null;
+
+      if (m = colourRegex.exec(hex)) {
+        preview.style.backgroundColor = "#"+m[1];
+        return true
+      }
+      return false;
+    }
+
+    function setValue(preview) {
+      var hex = document.getElementById("hex")
+      hex.value = preview.style.backgroundColor;
+    }
+  </script>
+  <script language="VBScript">
+    Sub Document_OnKeyUp()
+        If Window.Event.Keycode = 27 Then Window.Close
+    End Sub
+
+    Sub Window_onLoad
+      window.resizeTo 200,200
+
+      colour = document.parentwindow.clipboardData.GetData("text")
+      document.getElementById("hex").value = colour
+      If (Not setColor(colour)) Then document.getElementById("hex").value = ""
+    End Sub
+  </script>
+</head>
+
+<body>
+  <form>
+    <div id="preview" onclick="setValue(this);"></div>
+    <input id="hex" type="text" maxlength="7" onkeyup="setColor(this.value);" />
+  </form>
+</body>
+</html>

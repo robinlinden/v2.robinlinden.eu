@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "ToxCon 2017"
+date:   2017-10-23 22:16:00 +0200
+categories: blog
+permalink: blog/toxcon-2017
+---
+
+On the 21st and 22nd this month I spoke at ToxCon in Vienna about [Toxcore][c-toxcore], the [TokTok project][toktok], and some basics about crypto and distributed systems. I'd say the conference was a greater success than expected as we ended up giving the talks on both Saturday and Sunday instead of only Sunday as planned.
+
+The highlights from the conference included meeting people I've been working with in the Tox community; our talks, of course; cheap beer; and Tox developers calling in to the conference via Tox.
+
+The very cool venue we were allowed to host the conference in, the [Metalab](https://metalab.at/), made a few posts about us on their image blog: [ToxCon2017][metalab-1], [A New Kind of Instant Messaging][metalab-2]
+
+Hopefully we'll do it again next year, but with more talks, developers, and beer.
+
+<figure>
+    <img src="{{ site.baseurl }}/static/img/blog/toxcon-2017/2.jpeg" alt="Me in front of a Tox slideshow"/>
+    <figcaption>Glorious image quality, I know. To be fair, media capture in the venue was forbidden/strongly discouraged.</figcaption>
+</figure>
+
+[c-toxcore]: https://github.com/TokTok/c-toxcore/
+[toktok]: https://toktok.ltd/
+[metalab-1]: http://log.metalab.at/post/635768268/ToxCon2017
+[metalab-2]: http://log.metalab.at/post/635767949/A-New-Kind-of-Instant-Messaging-https

@@ -1,0 +1,23 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% if page.title %}{{ page.title | downcase | append: " :: " | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+	<meta name="theme-color" content="#424242">
+
+	<link rel="stylesheet" href="{{ site.baseurl }}/static/css/main.css">
+	{% if page.custom-css %}
+		{% for stylesheet in page.custom-css %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/static/css/{{ stylesheet }}.css">
+		{% endfor %}
+	{% endif %}
+	{% if page.custom-js %}
+		{% for script in page.custom-js %}
+	<script defer src="{{ site.baseurl }}/static/js/{{ script }}.js"></script>
+		{% endfor %}
+	{% endif %}
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

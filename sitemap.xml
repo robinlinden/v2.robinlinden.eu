@@ -1,0 +1,9 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+{% for p in site.pages %}{% if p.url contains ".xml" or p.url contains "/static" %}{% else %}{% include sitemap_xml_item.html url=p.url %}
+{% endif %}{% endfor %}{% for p in site.posts %}{% include sitemap_xml_item.html url=p.url %}{% endfor %}
+</urlset>
