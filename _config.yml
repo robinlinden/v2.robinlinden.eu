@@ -5,7 +5,7 @@ description: >
   update this website with something related to programming or optimisations.
   My day- and night-time job is consulting in the field of computers and programming.
   I develop and host websites for a hobby and my favourite animal is the coffee bean.
-baseurl: ""
+baseurl: "/v2.robinlinden.eu"
 url: "https://robinlinden.eu"
 
 # Build settings
