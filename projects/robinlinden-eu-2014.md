@@ -22,7 +22,3 @@ A website where I could showcase my projects, (maybe) blog, and place my GPG key
 * Stay under [14.3(ish) KB](https://en.wikipedia.org/wiki/TCP_congestion_control#Congestion_window). The second you're over it, you're adding ~100ms to the load time of your website.
 * How much I love optimisation
 <p></p>
-
-## Live version
-
-You can see this version of the website in a semi-archived state at [v1.robinlinden.eu](https://v1.robinlinden.eu).

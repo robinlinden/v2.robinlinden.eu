@@ -13,10 +13,6 @@ a company that manufactures trucks and trailers.
 The website was built in modern HTML5 and CSS3 with a material-design-inspired card-style design,
 and some JavaScript for things like the carousel and the lightbox.
 
-### Live demonstration
-
-You can see the final product over at [ory.robinlinden.eu](https://ory.robinlinden.eu).
-
 ### Responsive webdesign
 
 Having a webpage that works across all common device sizes is more important now than ever as
