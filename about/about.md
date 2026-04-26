@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi. My name is Robin, I am a Swedish computer engineer, and this is the [second iteration](https://v1.robinlinden.eu/) of my website.
+Hi. My name is Robin, I am a Swedish computer engineer, and this is the [second iteration]({{ site.baseurl }}/projects/robinlinden-eu-2014/) of my website.
 
 I work as a consultant (and run a consulting company) which means I have a fairly wide range of responsibilities, including setting up servers, networks, and writing software. Recently I've also been writing C++ in the field of robotics and automation which is pretty cool.
 
