@@ -16,19 +16,3 @@ layout: default
 		</div>
 	</div>
 </div>
-<div class="wrapper">
-	<div class="container-small">
-		<h2 class="page-heading">Recent posts</h2>
-		<ul class="post-list">
-			{% for post in site.posts limit:3 %}
-				<li>
-					<span class="post-meta">{{ post.date | date: "%F" }}</span>
-					<h3>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</h3>
-				</li>
-			{% endfor %}
-		</ul>
-		<p><a class="btn" href="{{ site.baseurl }}/blog/">View all posts</a></p>
-	</div>
-</div>
