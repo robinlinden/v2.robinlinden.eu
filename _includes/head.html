@@ -13,10 +13,5 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/static/css/{{ stylesheet }}.css">
 		{% endfor %}
 	{% endif %}
-	{% if page.custom-js %}
-		{% for script in page.custom-js %}
-	<script defer src="{{ site.baseurl }}/static/js/{{ script }}.js"></script>
-		{% endfor %}
-	{% endif %}
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
